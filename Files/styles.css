@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+}
+
+.left-pane {
+    flex: 4;
+    padding-left: 40px
+}
+
+.center-pane {
+    flex: 1;
+}
+
+.right-pane {
+    flex: 2;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    width: fit-content;
+}
+
+.png {
+    cursor: pointer;
+}
